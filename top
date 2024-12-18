@@ -1,0 +1,1509 @@
+[33mcommit 91c1c82ec29e4f481bfe3abed7541d5fb1de75ac[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mscripts[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 7c1bc09 93a17e4
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Nov 9 09:58:50 2024 +0530
+
+    Merge pull request #206 from basamaryan/master
+    
+    setup: Install pyelftools
+
+[33mcommit 93a17e4b29f88f13bd1b58bec7c5a9e6c890e3b1[m
+Author: basamaryan <basam.aryan@gmail.com>
+Date:   Tue Nov 5 14:33:44 2024 -0500
+
+    setup: Install pyelftools
+    
+    This is needed for Lineage's py extract utils
+
+[33mcommit 7c1bc0990dd0ca79b8f51b24024d67a74ea2ea1c[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon May 13 11:45:36 2024 +0530
+
+    fix: set the new scripts as executable
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 10860bac21b99401fe050b6e572854d9e8950d9a[m
+Author: Omkar Chandorkar <gotenksIN@aospa.co>
+Date:   Sun Apr 7 00:02:27 2024 +0530
+
+    random: Add scripts to copy IMS APN as well as sort APNs
+    
+    (cherry picked from commit c6201a816f3029e00376aa93b40ebafee68e1190)
+    Signed-off-by: Omkar Chandorkar <gotenksIN@aospa.co>
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 1f2974abd5e29ed154c6487b7aba36128a7d520d[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon May 13 11:43:00 2024 +0530
+
+    chore: add in another script
+    
+    Soon to be updated by Omkar
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit b8dcd09dde776177af3668643422886ea0e6f3dc[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Apr 6 15:42:58 2024 +0530
+
+    refactor: update script name in preparation for another
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 8e4fd70553163edd4d28ff47858e0b250b372fbe[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Apr 6 14:02:26 2024 +0530
+
+    fix(apn): write with utf-8 encoding
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 6687c35e5e048469a41a6d28075535fb775577d6[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Apr 6 13:50:12 2024 +0530
+
+    Add in some script to parse android APNs and copy some attributes from one to another
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit a10bf6fcdefc35018fb9ebb2729c49a26dd002cd[m
+Merge: 8da27eb 851851e
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Sep 9 19:16:35 2023 +0530
+
+    Merge pull request #199 from Meghthedev/master
+    
+    setup: Install rsync
+
+[33mcommit 8da27eb6a100ebc9f984b2cfeb8a96fe75bda10b[m
+Merge: 5e6cb17 1569b14
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Sep 9 19:13:58 2023 +0530
+
+    Merge pull request #201 from RisenID/master
+    
+    setup: fedora: Install libxcrypt-compat
+
+[33mcommit 1569b14171e54e5b6e4e9f00450abdce39355044[m
+Author: Ruchit <risenid@duck.com>
+Date:   Sat Sep 9 18:26:59 2023 +0530
+
+    setup: fedora: Install libxcrypt-compat
+    
+    Fixes
+    
+    perl: error while loading shared libraries: libcrypt.so.1: cannot open shared object file: No such file or directory
+    
+    on fedora rawhide
+
+[33mcommit 851851e1de4324ae89875e2581758e5e5bcde6cf[m
+Author: Meghthedev <meghthedev@gmail.com>
+Date:   Sun Jul 23 10:29:17 2023 +0530
+
+    setup: Install rsync
+    
+    * some custom roms require rsync in build, "error: rsync command not found", Installing this by default in the script fixes it
+
+[33mcommit 5e6cb17abf73fe64228cf642d79b0fec3dc33a19[m
+Merge: 24f1640 eab9b8b
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Apr 10 20:44:28 2023 +0530
+
+    Merge pull request #194 from TogoFire/master
+    
+    setup: add in openSUSE setup script
+
+[33mcommit eab9b8b5428020f85278c1d4f29add5a01b8e696[m
+Author: TogoFire <togofire@mailfence.com>
+Date:   Wed Nov 9 22:39:30 2022 -0300
+
+    setup: add in openSUSE setup script
+    
+    Change-Id: 133113140ac60ed39c891d37cbe66c6b4c3b4e99
+    Signed-off-by: TogoFire <togofire@mailfence.com>
+
+[33mcommit 24f1640f21ab609d1594245a317b77d23db70cc4[m
+Merge: a50c73a 7db8887
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Apr 5 18:29:12 2023 +0530
+
+    Merge pull request #193 from Arrowsploit/master
+    
+    setup: Install git-lfs
+
+[33mcommit 7db88877a878d401de5fb8b5093eac4041703518[m
+Author: Arrowsploit <arrowsploit@pm.me>
+Date:   Wed Apr 5 14:18:36 2023 +0530
+
+    setup: Install git-lfs
+    
+     * Some custom rom sources started using git-lfs. Installing this Git extension will allow us to track those larger files from remote server
+    
+    Signed-off-by: Arrowsploit <arrowsploit@pm.me>
+
+[33mcommit a50c73a7bbd0cef4b63ac0132f6dd00404b7fcf8[m
+Merge: b76bf84 2cd4ed1
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Thu Dec 29 16:50:45 2022 +0530
+
+    Merge pull request #184 from aashil123/patch-1
+    
+    Arch env install font as well
+
+[33mcommit b76bf84c8985518a481e64d9b8d411cc9d0c43a7[m
+Merge: 7eca1be be34c74
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Thu Dec 29 16:49:59 2022 +0530
+
+    Merge pull request #189 from Giovix92/master
+    
+    setup: android_build_env: Add support for PopOS
+
+[33mcommit 7eca1be68400f26a4fb3acef070560b826fa0366[m
+Merge: 8c7ef9e 9aeb292
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Dec 27 01:56:23 2022 +0530
+
+    Merge pull request #190 from LeddaZ/master
+    
+    scripts: fedora: Update for F37
+
+[33mcommit 9aeb2929c6c422ed511e0ae88d4c36e4d71db69a[m
+Author: LeddaZ <leonardoledda@gmail.com>
+Date:   Mon Dec 26 18:08:01 2022 +0100
+
+    scripts: fedora: Update for F37
+
+[33mcommit be34c745f75e0331bb4464e2170146a2c94e5306[m
+Author: Giovix92 <giovix92@giovix92.com>
+Date:   Fri Dec 23 14:22:38 2022 +0100
+
+    setup: android_build_env: Add support for PopOS
+    
+    The script works across all 2x.xx versions of PopOS (LTS/non-LTS),
+    just add the required checks to let it join the roster.
+    
+    Change-Id: I9b108b18814462b5a838f0dc8574c58b90c7e495
+
+[33mcommit 8c7ef9ebe7d35c5e54d5e1c0f396bfb3d74d2513[m
+Merge: 8110a63 c80dee8
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Fri Dec 23 14:28:15 2022 +0530
+
+    Merge pull request #187 from iKeramat/master
+    
+    setup: fedora: Add clang
+
+[33mcommit 8110a63bc655abed2bb6f761841638fb63113648[m
+Merge: 980e6d1 e61f664
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sun Nov 13 18:33:25 2022 +0530
+
+    Merge pull request #188 from Arrowsploit/master
+    
+    Arch-Androidenvsetup: Don't install libxcrypt-compat from AUR
+
+[33mcommit e61f66424b0534dae6277743aad7d355ac827d99[m
+Author: Arrowsploit <arrowsploit@pm.me>
+Date:   Sun Nov 13 14:50:32 2022 +0530
+
+    Arch-Androidenvsetup: Don't install libxcrypt-compat from AUR
+    
+    * The package "libxcrypt-compat" is available in Archlinux core repository : https://archlinux.org/packages/core/x86_64/libxcrypt-compat
+      Also it's getting installed by aosp-devel as a dependency : https://aur.archlinux.org/cgit/aur.git/commit/PKGBUILD?h=aosp-devel&id=8cf0210389af8c1b082f746144e56930c9cf7cd8
+      Therefore if we clone it from aur and compile, it generates an older version of package and as we using --noconfirm option, it downgrades the package without asking.
+      So let aosp-devel do the job of installing it.
+    
+    Signed-off-by: Arrowsploit <arrowsploit@pm.me>
+
+[33mcommit c80dee83c91396d4dbfaff73cab457c51f3075e6[m
+Author: Mohammad Hasan Keramat J <ikeramat@protonmail.com>
+Date:   Tue Sep 6 02:44:11 2022 +0430
+
+    setup: fedora: Add clang
+    
+    * Fedora 31 -> 36
+    
+    Signed-off-by: Mohammad Hasan Keramat J <ikeramat@protonmail.com>
+
+[33mcommit 2cd4ed12583a0efd4bb433a7d8c544207f4c2bd7[m
+Author: aashil123 <34879849+aashil123@users.noreply.github.com>
+Date:   Fri Jul 1 12:01:11 2022 +0530
+
+    Arch env install font as well
+    
+    Bare arch server setup doesn't have a font which throws this error while compling -https://katb.in/axoxiyibumo
+
+[33mcommit 980e6d1b5bc0c221170275f8dcd2739579677055[m
+Merge: 7385117 bd07812
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Jun 29 11:09:16 2022 +0530
+
+    Merge pull request #182 from PIPIPIG233666/patch-1
+    
+    Add libxcrypt-compat for Arch env setup
+
+[33mcommit 73851179ce3f4c349f47f6781da4ebc701188401[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Jun 27 17:32:47 2022 +0530
+
+    Add in a comment, add in a missing command from github's install docs
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 603ebab9814fccc84e146cefcf03e83f2a9b6f3d[m
+Merge: f9e3eee d7921f5
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Jun 27 17:32:31 2022 +0530
+
+    Merge commit 'refs/pull/183/head' of ssh://github.com/akhilnarang/scripts
+    
+    * ssh://github.com/akhilnarang/scripts:
+      setup: android_build_env: Update the installation of GitHub CLI package
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit d7921f5033a6dd32ccb06c5d5fabc1a80579c8e7[m
+Author: Kunmun <kunmun@aospa.co>
+Date:   Tue Jun 21 13:34:37 2022 +0530
+
+    setup: android_build_env: Update the installation of GitHub CLI package
+    
+    Following the official procedure as mentioned in [1].
+    The previous method was deprecated leaving behind an
+    error with missing repository as [2] doesn't exist.
+    
+    Reference:
+    [1] https://github.com/cli/cli/blob/trunk/docs/install_linux.md\#debian-ubuntu-linux-raspberry-pi-os-apt
+    [2] https://cli.github.com/packages
+
+[33mcommit bd07812ee27bfbc5d49633d31d976a0a9fda6747[m
+Author: Pig <23kongw@brrice.edu>
+Date:   Thu Jun 2 12:31:16 2022 -0400
+
+    Add libxcrypt-compat for Arch env setup
+    
+    Fixes the following:
+    perl: error while loading shared libraries: libcrypt.so.1: cannot open shared ob
+    ject file: No such file or directory
+    make[2]: *** [/home/pppig236/loss/kernel/xiaomi/sm6150/kernel/Makefile:135: kern
+    el/kheaders_data.tar.xz] Error 127
+
+[33mcommit f9e3eeec457088c96b3097f9555292c378faf174[m
+Merge: 56018db 67eb050
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Fri Apr 22 11:01:16 2022 +0530
+
+    Merge pull request #179 from gokulkgm/ubuntu-jammy
+    
+    setup: android_build_env: extend focal packages to jammy as well
+
+[33mcommit 67eb0508849c6ebd32eb9251979e60e332983d98[m
+Author: Gokul GK <8915158+gokulkgm@users.noreply.github.com>
+Date:   Fri Apr 22 08:01:46 2022 +0530
+
+    setup: android_build_env: extend focal packages to jammy as well
+
+[33mcommit 56018dbf8c3d278119391dd4cfac8a7a8d38ebc9[m
+Merge: de03876 b606b67
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Mar 30 18:18:34 2022 +0530
+
+    Merge pull request #178 from gokulkgm/ccache-update
+    
+    setup: ccache: Update SCM protocol to https
+
+[33mcommit de03876ff706fb6b1f737efa737e7f95285d812f[m
+Merge: 94205bc ae8bcbd
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Mar 30 17:48:44 2022 +0530
+
+    Merge pull request #177 from xstefen/master
+    
+    android_build_env: upgrade to hkps for keyserver
+
+[33mcommit b606b67e13827eefa8f53be2ff6aebc5e42ceb9a[m
+Author: Gokul GK <8915158+gokulkgm@users.noreply.github.com>
+Date:   Tue Mar 29 21:34:46 2022 +0530
+
+    setup: ccache: Update SCM protocol to https
+
+[33mcommit ae8bcbd5f728e61fb02456adfcd1c341f30dc169[m
+Author: Stefen Wakefield <me@xstefen.dev>
+Date:   Sun Mar 20 21:18:04 2022 -0500
+
+    android_build_env: use upgrade to hkps for keyserver because why not
+
+[33mcommit 94205bc8bfa67454fb33f9a7b1bddd42db9c15f3[m
+Merge: 82a2ca4 3c30dcd
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sun Mar 20 14:20:51 2022 +0530
+
+    Merge pull request #173 from gerrydoro/patch-1
+    
+    GPG keyserver error fix in `Update android_build_env.sh`
+
+[33mcommit 82a2ca49145b09d57cb7f2bc26a6aa07100462be[m
+Merge: 9f015c5 bc4c85f
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Thu Feb 17 12:14:24 2022 +0530
+
+    Merge pull request #174 from SahilSonar/master
+    
+    scripts: github: Add script to push all repos from manifest to github
+
+[33mcommit 9f015c5196efc23834fe43957e9a3b659dbf3cfd[m
+Merge: dc0d4c8 ea3f432
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Thu Feb 17 12:14:01 2022 +0530
+
+    Merge pull request #175 from theimpulson/master
+    
+    android_build_env: Install libswitch-perl as well
+
+[33mcommit ea3f4326d3b383e229d89722b6186f48ba3fb4d4[m
+Author: Aayush Gupta <aayushgupta219@gmail.com>
+Date:   Thu Feb 17 09:43:12 2022 +0530
+
+    android_build_env: Install libswitch-perl as well
+    
+    Required to compile MTK libs
+
+[33mcommit bc4c85fbc8d2616571ceeebee767002598183575[m
+Author: SahilSonar <sss.sonar2003@gmail.com>
+Date:   Sat Jan 29 16:46:27 2022 +0530
+
+    scripts: github: Add script to push all repos from manifest to github
+
+[33mcommit 3c30dcd60e3d8cc2d0e4ab9ffde5fcd7af9de710[m
+Author: Gerardo Doro <gerrydoro97@gmail.com>
+Date:   Mon Jan 24 22:14:57 2022 +0100
+
+    Update android_build_env.sh
+    
+    Fixed `gpg: keyserver receive failed: Server indicated a failure error` when `sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0`
+
+[33mcommit dc0d4c8bfb41052707c0e2a2517ef0972daf4edd[m
+Merge: 0c08d37 783bf3d
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Jan 11 20:14:40 2022 +0530
+
+    Merge pull request #171 from Kn0ax/master
+    
+    setup: install software-properties-common before
+
+[33mcommit 783bf3d782c31f86d8a2174f85a03b994fe91af7[m
+Author: Kn0ax <42520461+Kn0ax@users.noreply.github.com>
+Date:   Tue Jan 11 14:56:20 2022 +0100
+
+    removed -get
+
+[33mcommit 0c08d37dd5242c89da1102e0fcf02a0b7c315323[m
+Merge: 3a91c56 e366973
+Author: Akhil Narang <akhilnarang.1999@gmail.com>
+Date:   Mon Jan 10 15:57:25 2022 +0530
+
+    Merge pull request #172 from xstefen/master
+    
+    setup/install_android_sdk: update packages and sync with upstream
+
+[33mcommit e366973b1d9c9636efaa5a0c0c44a6b50c2c1ff5[m
+Author: Stefen Wakefield <me@xstefen.dev>
+Date:   Fri Jan 7 22:39:37 2022 -0600
+
+    setup/install_android_sdk: update packages and sync with upstream
+
+[33mcommit b91e9a71a3d23187e638f8df75ba7e8ce9cb92eb[m
+Author: Kn0ax <42520461+Kn0ax@users.noreply.github.com>
+Date:   Tue Jan 4 19:00:37 2022 +0100
+
+    setup: install software-properties-common before
+    
+    adding GitHub packages repository.
+    
+    Some env. don't have software-properties-common and scripts fails to run apt-add-repository command;
+    
+    # bash android_build_env.sh
+    Adding GitHub apt key and repository!
+    Executing: /tmp/apt-key-gpghome.aXdgtXadYz/gpg.1.sh --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+    gpg: key C99B11DEB97541F0: "Nate Smith <vilmibm@github.com>" not changed
+    gpg: Total number processed: 1
+    gpg:              unchanged: 1
+    sudo: apt-add-repository: command not found
+
+[33mcommit 3a91c56466b07a7d72a5914ac1e5ca83d18459b9[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Fri Dec 17 11:14:23 2021 +0530
+
+    solus: download `repo` from google
+    
+    I no longer maintain my fork
+    
+    Resolves #169
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit b10bb0f7a32df9df8854c1d1256b336271003cf8[m
+Merge: 087cb6d 38f1345
+Author: Akhil Narang <akhilnarang.1999@gmail.com>
+Date:   Fri Oct 1 13:02:46 2021 +0530
+
+    Merge pull request #167 from iKeramat/master
+    
+    setup: debian: Add support for Debian 11
+
+[33mcommit 38f1345883657b3cd23eed3bbe0e1df39c05cc74[m
+Author: Mohammad Hasan Keramat J <ikeramat@protonmail.com>
+Date:   Tue Aug 31 14:10:37 2021 +0430
+
+    setup: debian: Add support for Debian 11
+    
+    Signed-off-by: Mohammad Hasan Keramat J <ikeramat@protonmail.com>
+
+[33mcommit 087cb6d90952600b2a8558fe16777ed09ae6728e[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Fri Jul 30 12:48:30 2021 +0530
+
+    Update powerlevel10k configuration
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit ae7868fe3b206ee7fda25845896498e622d67534[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Jul 19 20:20:12 2021 +0530
+
+    aosip: release: create device dir if it doesn't exist
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 4f11571ddd7ad3330fe89144591c4ea8f0b310b7[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Jun 21 13:58:28 2021 +0530
+
+    aosip: run backuptool only when WITH_GAPPS isn't true
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit be8802301d1418161a7db79ed5fe238cc009d64d[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Thu May 27 16:37:56 2021 +0530
+
+    extract_and_push: drop jenkins
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit dd458f5e2dcad1318949b78b05dce822087d3b3e[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat May 15 19:46:57 2021 +0530
+
+    android_build_env: extend focal packages to hirsute as well
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 059c84d93f8ba6d876660594873809b154b1c012[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed May 12 12:02:37 2021 +0530
+
+    arch setup: add back required packages
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit a6f2d78e7cb24caf0c1df46c7169cf94040ecc90[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed May 12 12:00:24 2021 +0530
+
+    Cleanup arch setup a bit
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 25178263dcc4fc7a5ebc8e7ae2a0d801e7410860[m
+Author: Stefen Wakefield <me@xstefen.dev>
+Date:   Tue May 11 23:01:59 2021 -0500
+
+    arch-manjaro.sh: cleanup redundancy and increase efficiency, plus echoes!
+    
+    1. Eradicate cruft - lineageos-devel is a master group package for everything needed. It's deps include everything this script previously did minus adb and the sometimes needed multilib-devel to avoid gcc stupidity,
+    2. Add --needed flag - If were gonna skip user confirmations, may as well skip unneeded-because-already-installed packages as well (saving bandwidth and writes?)
+    3. Add echoes - Useless but, why not? :shrug:
+
+[33mcommit 5740841a19952ce083e2e654361ebf0c795934aa[m
+Merge: 7ee6b96 4c40ce2
+Author: Akhil Narang <akhilnarang.1999@gmail.com>
+Date:   Tue May 11 22:41:38 2021 +0530
+
+    Merge pull request #158 from Dhina17/master
+    
+    arch: Skip user confirmation to install
+
+[33mcommit 7ee6b965da31237d09f5ae7d542c9d745a519ba8[m
+Merge: dea6983 1655ea0
+Author: Akhil Narang <akhilnarang.1999@gmail.com>
+Date:   Tue May 11 22:41:23 2021 +0530
+
+    Merge pull request #161 from Vishalcj17/master
+    
+    setup: clear: Install git too.
+
+[33mcommit 1655ea0c615008edb6e2c85a50dfefc1e7bee0ba[m
+Author: Vishalcj17 <vishalcj@aospa.co>
+Date:   Tue May 4 06:15:15 2021 +0000
+
+    setup: clear: Install git too.
+    
+    Signed-off-by: Vishalcj17 <vishalcj@aospa.co>
+
+[33mcommit dea6983b3310c0ef0f9d4881287c9e5f9a056781[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Apr 19 13:52:24 2021 +0530
+
+    Catch aborts and send a tg message
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit fee329bedc9fda7abc92823465d1c362c0f34b5d[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Apr 19 13:51:53 2021 +0530
+
+    shfmt
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 1c3e1a413daac6238e619f4d3a70192cff738167[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Apr 17 12:41:45 2021 +0530
+
+    Oops
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit bf465715bb967a84a583378e87d591741711f07f[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Thu Apr 15 15:48:28 2021 +0530
+
+    build-kernel: switch to AOSP clang 12.0.4
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit b8bbe13817b3bd6075648d8d814f1065c9cae9f6[m
+Author: Stefen Wakefield <me@xstefen.dev>
+Date:   Thu Apr 15 05:13:58 2021 -0500
+
+    setup/install_android_sdk: update packages and sync with upstream (#160)
+    
+    Co-authored-by: Harsh Shandilya <me@msfjarvis.dev>
+
+[33mcommit 2ecb093b058b036fe934e00b7d5e31841ce846e3[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Apr 14 21:00:28 2021 +0530
+
+    build-kernel: cleanup and hardcode stuff for phoenix
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit ca6c871f85514d82cd4639156579cdf5de36a4d3[m
+Merge: 0d99e9b 34025e0
+Author: Akhil Narang <akhilnarang.1999@gmail.com>
+Date:   Tue Apr 13 17:22:16 2021 +0530
+
+    Merge pull request #159 from ikeramat/master
+    
+    setup: fedora: Add android-tools package
+
+[33mcommit 34025e04c135265a0bde3912cfa7822e39e5a996[m
+Author: Mohammad Hasan Keramat J <ikeramat80@gmail.com>
+Date:   Sun Apr 11 10:18:12 2021 +0430
+
+    setup: fedora: Add android-tools package
+    
+    We need this package to access adb and fastboot.
+    
+    Signed-off-by: Mohammad Hasan Keramat J <ikeramat80@gmail.com>
+
+[33mcommit 0d99e9b65acc60bcb514be86e5db5b73602a2532[m
+Author: Akianonymus <anonymus.aki@gmail.com>
+Date:   Thu Apr 8 16:05:11 2021 +0530
+
+    Fix moto URLs breaking everything?
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 4c40ce2de478866ecb3c004083c2cef0b63bb7fa[m
+Author: Dhina17 <dhinalogu@gmail.com>
+Date:   Tue Apr 6 18:33:59 2021 +0530
+
+    arch: Skip user confirmation to install
+    
+    - Good to skip this in scripts.
+
+[33mcommit 06f097b54ab9dd3639bad878fa8241a82d9f9e96[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Mar 27 21:58:47 2021 +0530
+
+    extract_and_push: fix /dev/null
+    
+    No trailing `.` is required there 😂
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 935029bff299b723f5cd8c19c3f226dbddb49761[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Thu Mar 25 13:38:53 2021 +0530
+
+    extract_and_push: create public subgroups
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit ea8761c9af0ca7fab4e1a1abafb6b7d5952bbc48[m
+Merge: b008ec1 85c5bf9
+Author: Akhil Narang <akhilnarang.1999@gmail.com>
+Date:   Tue Mar 23 16:59:50 2021 +0530
+
+    Merge pull request #157 from Akianonymus/master
+    
+    Moar fixes
+
+[33mcommit 85c5bf990ee2c8c2f3581d988d3ca39052a9b0a7[m
+Author: Akianonymus <anonymus.aki@gmail.com>
+Date:   Tue Mar 23 16:08:15 2021 +0530
+
+    misc/extract_and_push.sh: Send with branch link when sending message to group
+
+[33mcommit ee416e5f986073462b9ec089f2662d5a6f24c8d3[m
+Author: Akianonymus <anonymus.aki@gmail.com>
+Date:   Tue Mar 23 15:34:36 2021 +0530
+
+    misc/extract_and_push.sh: Moar fixes for tg message
+    
+    * don't reset the message when sending Extracting Firmware..
+    
+    * clear the last partition status when all done instead of waiting for next message
+
+[33mcommit b008ec1563a22228f9b7347e2f17902d880abeb8[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Mar 23 14:24:43 2021 +0530
+
+    extract_and_push: fix already pushed branch detection
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit c2dc15ab1370192475f2e989a0f01ba99288d67b[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Mar 22 11:07:30 2021 +0530
+
+    Fix derp in project id check
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 1484c7554d6ee52ab1c2cd8ebe0a5362f26df1c8[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Mar 22 11:03:56 2021 +0530
+
+    add some debugging
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit c42aeee3f1f35baca5180691850a1379abab9c59[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Mar 22 11:03:21 2021 +0530
+
+    Fix derp
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 0aff0b619c4522bcb940708c1c4fbc914cd2acbb[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Mar 22 10:53:26 2021 +0530
+
+    Add in some echo statements
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 8c6d1b2c180a73c056ec2fdbb2dc751abbc9fb1b[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Mar 22 10:51:41 2021 +0530
+
+    Adjust props detection for oppo/oneplus
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 939f4d5304ed174abbed41190be90b16c8eb2023[m
+Merge: a096e9e 4756823
+Author: Akhil Narang <akhilnarang.1999@gmail.com>
+Date:   Sat Mar 20 21:18:02 2021 +0530
+
+    Merge pull request #156 from Akianonymus/master
+    
+    misc/extract_and_push: Send "Job failed" to tg if job failed | More progress | Cleanup
+
+[33mcommit 475682314c7f815f3e3e949b62e6e0e5cc92737c[m
+Author: Akianonymus <anonymus.aki@gmail.com>
+Date:   Fri Mar 19 19:15:32 2021 +0530
+
+    misc/extract_and_push.sh: More progress
+    
+    * Add live progress of which partition is being extracted currently
+    
+    * Add "Extracting firmware.." to progress
+
+[33mcommit 4de9b705de75fdd26b395aedcafa42e07d09e0a6[m
+Author: Akianonymus <anonymus.aki@gmail.com>
+Date:   Fri Mar 19 18:33:56 2021 +0530
+
+    misc/extract_and_push.sh: Send Job Failed! on failed jobs | Some cleanup
+    
+    * use --compressed flag for all curl requests
+    
+    * Move some code blocks to appropriate postion
+
+[33mcommit a096e9e293d516efb4eef53ed505f914a7798c92[m
+Merge: ce900b0 a237f52
+Author: Akhil Narang <akhilnarang.1999@gmail.com>
+Date:   Fri Mar 19 12:03:42 2021 +0530
+
+    Merge pull request #141 from Akianonymus/master
+    
+    misc/extract_and_push.sh: Add support to edit messages | Cleanup
+
+[33mcommit a237f5298ae719f2f3e2481586e0434c5912c14b[m
+Author: Akianonymus <anonymus.aki@gmail.com>
+Date:   Thu Mar 18 17:26:40 2021 +0530
+
+    misc/extract_and_push.sh: Add support to edit messages
+    
+    add 3 modes to sendTg function ( normal, reply and edit )
+    
+    send initial message and save id in var MESSAGE_ID
+    
+    save initial sent message in MESSAGE
+    
+    add sendTG_edit_wrapper fucntion to handle appending to MESSAGE variable
+    
+    as the script progress, append new stuff to MESSAGE and send the edited messages
+
+[33mcommit ce900b0d58cbbc986a4b546c6a41e2e2da14d612[m
+Merge: 6dc0d09 1bf1b41
+Author: Akhil Narang <akhilnarang.1999@gmail.com>
+Date:   Wed Mar 17 19:16:46 2021 +0530
+
+    Merge pull request #155 from SebaUbuntu/master
+    
+    extract_and_push: Don't completely silence dtc
+
+[33mcommit 1bf1b41ddd38761bac78eef5f20a2974f22182b6[m
+Author: Sebastiano Barezzi <barezzisebastiano@gmail.com>
+Date:   Wed Mar 17 14:37:29 2021 +0100
+
+    extract_and_push: Don't completely silence dtc
+    
+    * We want to know when there's an error, so just silence warnings
+
+[33mcommit 6dc0d09bde41f726f6ae36fa26de70f3a3c52fa9[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Mar 17 11:44:16 2021 +0530
+
+    extract_and_push: take the first line of props
+    
+    Multiple lines happen when we find the same props in multiple files
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit abe5c4ae69179a5edf89adac7bac3eaa8efd19fc[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Mar 16 22:36:52 2021 +0530
+
+    extract_and_push: use extract-dtb directly
+    
+    Its available on PyPI now, so can simply install it directly
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 93787d3a3a281d2737c6d13fe3afab2a5ce69b64[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Mar 16 17:11:55 2021 +0530
+
+    extract_and_push: Update parent group id for new gitlab
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 096894826d0608abf9eba94993700887a27c48cb[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Mar 16 17:08:48 2021 +0530
+
+    extract_and_push: update git config
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 3e62c019992f589f3bf3a126b9c4ba088bea6c5b[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Mar 16 17:07:22 2021 +0530
+
+    extract_and_push: read push host from a variable
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit fd7182d2d018808a02592fd4d345a0d4a9cea536[m
+Author: Sebastiano Barezzi <barezzisebastiano@gmail.com>
+Date:   Tue Mar 16 12:15:09 2021 +0100
+
+    extract_and_push: Move to dumps.tadiphone.dev
+
+[33mcommit 9e9feabb231e1603dfad8994bdb7a4e758534aa6[m
+Author: Sebastiano Barezzi <barezzisebastiano@gmail.com>
+Date:   Tue Mar 16 12:12:26 2021 +0100
+
+    extract_and_push: Don't hardcode server URL
+
+[33mcommit 06a0d2ea0c409d14e3b262ce016281356bf42c77[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Mar 13 00:02:38 2021 +0530
+
+    scripts: add in a script to delete github repositories
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 7b6d46ce8483e4b9fba8eb1c4da7f3edd80d7bf9[m
+Merge: 18ed776 97744ef
+Author: Akhil Narang <akhilnarang.1999@gmail.com>
+Date:   Fri Mar 12 10:27:58 2021 +0530
+
+    Merge pull request #153 from 4j17h/master
+    
+    extract_and_push: fixup 2f7f0177c8658306d39d8920ef1f2c002b0e350e
+
+[33mcommit 97744ef68e9b05ab76aeae0f730bbbeb34e86a6e[m
+Author: 4j17h <7hou74m4j17h@gmail.com>
+Date:   Fri Mar 12 01:02:17 2021 +0530
+
+    extract_and_push: fixup 2f7f0177c8658306d39d8920ef1f2c002b0e350e
+    
+    Signed-off-by: 4j17h <7hou74m4j17h@gmail.com>
+    Change-Id: Ie151a59ec8a8c9d86d2252c5db39e6dee7a2b076
+
+[33mcommit 18ed7767c1b51af7c26144bd2e213242b304867f[m
+Merge: 546a142 fd628ca
+Author: Akhil Narang <akhilnarang.1999@gmail.com>
+Date:   Sun Mar 7 21:13:19 2021 +0530
+
+    Merge pull request #152 from theimpulson/master
+    
+    android_build_env: Install github's official cli package
+
+[33mcommit fd628ca73f9fee343ca0b40ab5b25676cc319ec8[m
+Author: Aayush Gupta <aayushgupta219@gmail.com>
+Date:   Sun Mar 7 20:59:47 2021 +0530
+
+    android_build_env: Install github's official cli package
+    
+    - Used to github on server's like publishing releases etc
+    
+    Signed-off-by: Aayush Gupta <aayushgupta219@gmail.com>
+
+[33mcommit 546a142222488556bd1fa56aab56d3cc0448dbb2[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Fri Feb 26 14:21:15 2021 +0530
+
+    functions: add an alias for `git cherry-pick --skip`
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit d29323022e844825692360da19e3b5ca41d3ff96[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Feb 23 15:29:17 2021 +0530
+
+    extract_and_push: restore original IFS
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 86f837cec2ce12eafcba9563287e82687b03ba43[m
+Author: Vache <vachounet@live.fr>
+Date:   Tue Feb 23 07:59:49 2021 +0100
+
+    extract_and_push: remove query strings from URL (#151)
+
+[33mcommit a55896bce23e9d462571c76f6225e04a12844533[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Jan 27 20:53:37 2021 +0530
+
+    extract_and_push: deal with empty codenames, and ones with spaces in them
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit d5d5f0d7222c0b38ffb63b9cf1a981ff772899ca[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Jan 16 20:48:34 2021 +0530
+
+    extract_and_push: run shfmt
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 0cf68097757d64447d1ec1577b33f24396d159a1[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Jan 16 20:48:00 2021 +0530
+
+    extract_and_push: update twrpimg check
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 687aa2ac01c2d3c0b9493a3b946068a29e23a2f4[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Jan 16 20:46:38 2021 +0530
+
+    extract_and_push: convert 1drv.ms links to 1drv.ws for direct download capability
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 6753665072a31ed1eb7d35f5c27e6308043696a1[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Fri Jan 15 20:00:41 2021 +0530
+
+    aosip: update upload setup
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 2f7f0177c8658306d39d8920ef1f2c002b0e350e[m
+Author: Ajith <7hou74m4j17h@gmail.com>
+Date:   Fri Jan 15 10:00:06 2021 +0530
+
+    extract_and_push: Extract imgs from system/euclid (realme A11) (#150)
+    
+    Also add props to properly detect brand & codename
+    
+    Signed-off-by: 4j17h <7hou74m4j17h@gmail.com>
+
+[33mcommit a41dd7b9b86d612e2892bece667e9ffe9ac53db9[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Jan 12 15:32:48 2021 +0530
+
+    extract_and_push: fix typo
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 36998e947902ee9574a51df8b8caa4173d3c1294[m
+Author: Sebastiano Barezzi <barezzisebastiano@gmail.com>
+Date:   Tue Jan 12 10:35:15 2021 +0100
+
+    extract_and_push: Ignore certificate also on aria2c (#148)
+    
+    * Also move --no-check-certificate flag in wget before file to follow other commands syntax
+
+[33mcommit 8735cc2d0176590e5b3c1624b25e6413995aca65[m
+Author: Sebastiano Barezzi <barezzisebastiano@gmail.com>
+Date:   Tue Jan 12 10:26:58 2021 +0100
+
+    extract_and_push: Don't check certificate for wget (#147)
+
+[33mcommit 31d0e53f1346d09fc2f1c203892754c52657d032[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Jan 11 19:53:44 2021 +0530
+
+    extract_and_push: fix vmlinux-to-elf usage
+    
+    Pass kernel image not bootimage
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 601e23ef676ebf0ef13a9468692723bc6151d33d[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Jan 6 17:40:59 2021 +0530
+
+    extract_and_push: update for twrpdtgen 1.2.1
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 458d5a3a6b9cb39dfd21c6da8dfc06ba2f29d60d[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Jan 6 01:36:18 2021 +0530
+
+    extract_and_push: update for twrpdtgen 1.1
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 21b847ae76281dc608164684e91e0fd05ab8ed6d[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Jan 4 17:34:14 2021 +0530
+
+    extract_and_push: fix call to twrpdtgen
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit a74c1ae51d602e0ff5e62995178beb8701fc3227[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Jan 4 11:46:20 2021 +0530
+
+    extract_and_push: add some more print statements
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 91a5101be2aa33cf0aaa9a11284ecc871b974a98[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Jan 4 11:35:30 2021 +0530
+
+    extract_and_push: add in twrp device tree generator
+    
+    Adapted from https://github.com/AndroidDumps/dumpyara/pull/3
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 8b592abbf324a756aef43f76253bb21912cb9896[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Dec 28 20:57:50 2020 +0530
+
+    extract_and_push: remove some duplicate checks
+    
+    Check vendor/build.prop before system
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 27138927312216cca65f1d53323ec8f1f68eb88a[m
+Author: Rokib Hasan Sagar <rokibhasansagar2014@outlook.com>
+Date:   Fri Dec 25 21:12:34 2020 +0600
+
+    extract_and_push: Fix multiple Codename & Brand (#146)
+    
+    - Did a derp earlier in #143 while fixing Realme props search, this patch fixes it.
+
+[33mcommit b5e4de5ecd2808f912a536092b004041fd3ab460[m
+Merge: a7137a2 74e4698
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Dec 23 11:18:24 2020 +0530
+
+    Merge commit 'refs/pull/145/head' of github.com:akhilnarang/scripts
+    
+    * github.com:akhilnarang/scripts:
+      Add openssl to fedora to repair oneplus 8pro kernel build
+    
+    Closes #144
+
+[33mcommit 74e4698fcb6afcf797659742914f2036a19c847a[m
+Author: theringmaster <gzroms@hotmail.com>
+Date:   Tue Dec 22 14:20:59 2020 -0500
+
+    Add openssl to fedora to repair oneplus 8pro kernel build
+
+[33mcommit a7137a27e8573cb073c82257a3b56609da16e098[m
+Author: Rokib Hasan Sagar <rokibhasansagar2014@outlook.com>
+Date:   Sun Dec 20 21:57:19 2020 +0600
+
+    extract_and_push: Realme props fix (#143)
+    
+    - Added all possible build prop locations for manufacturer, brand and codename
+      - Can Realme even bypass these locations?!
+
+[33mcommit fefccd96d26615c31f5d478c473a494b4775385b[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Dec 7 21:58:26 2020 +0530
+
+    Don't exclude files on git.rip
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit f20614f784c5d6dab36beddf236fde4ce6230472[m
+Author: Rokib Hasan Sagar <rokibhasansagar2014@outlook.com>
+Date:   Tue Dec 1 22:24:10 2020 +0600
+
+    misc/extract_and_push.sh: Add another prop location for some oppo device's codename (#142)
+    
+    - Add another promising prop location for some oppo device's codename
+
+[33mcommit f8539e86b334f66f0bf4fe8480f0df36a8199e5c[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sun Nov 29 15:31:03 2020 +0530
+
+    aosip: fix path for img_from_target_files
+    
+    zip2zip is in out/soong/host/linux-x86 apparently.
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit f09d931cb5bcb69e1beb4a4e330a7e45f8a801ca[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sun Nov 29 14:54:24 2020 +0530
+
+    aosip: apply 1ec98d90045880f15e41fa6358816bd95908fb62 to img_from_target_files as well
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 329d18c77ed4d22a87b11171f3a04f6eb68117a4[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sun Nov 29 13:57:22 2020 +0530
+
+    aosip: build: go back to otatools+target-files-packages
+    
+    Tools like signapk, deapexer aren't included in an otapackage or dist by default in R apparently
+    
+    Revert "aosip: switch to building kronic target even for signed builds"
+    This reverts commit a2422dfd215399e7eba4743f9d6bf6b553b92566.
+    
+    Revert "aosip: build: change from otatools+target-files-package to dist"
+    This reverts commit bad28bfcf8f57cc45a4de19b9c17f56c9491c314.
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 3b34c450d094f936a60f1d406e30552d78937c9b[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sun Nov 29 12:47:20 2020 +0530
+
+    aosip: build: display time taken to pick all commits
+    
+    Also remove a stray `set -e`
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 99318479f59fcb5dee3a96b1963490bf4fc96f91[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Nov 28 22:08:30 2020 +0530
+
+    aosip: upload recovery image as well
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 4c89c6600dd59a46e9f59d331568eab51c694879[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Nov 28 00:09:40 2020 +0530
+
+    aosip: build: fix signing condition
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit a2422dfd215399e7eba4743f9d6bf6b553b92566[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Fri Nov 27 22:23:09 2020 +0530
+
+    aosip: switch to building kronic target even for signed builds
+    
+    R doesn't seem to include signapk, otapackage (hence kronic) does after https://github.com/AOSiP/platform_build/commit/9be95ef35875929d584260df5f97504bfaca2393
+    And for this usecase, even just otatools + target-files is enough tbh
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 93fb01a7d66477677e8628a7983aea6dd84142fe[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Nov 25 10:29:00 2020 +0530
+
+    Hopefully this works
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 4a2ecd93ca52b1ebc034e4b30fdac50f3358b515[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Nov 25 10:26:13 2020 +0530
+
+    extract_and_push: inform TG group when job is being cancelled
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 5ec7b7ae45dfc433f36282341f0b1552b572dcbf[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Wed Nov 25 10:23:46 2020 +0530
+
+    extract_and_push: switch to pushing via SSH
+    
+    git.rip finally supports it :')
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 1ec98d90045880f15e41fa6358816bd95908fb62[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Nov 9 23:59:23 2020 +0530
+
+    aosip: fix signing
+    
+       ERROR: Failed to run signapk.jar: return code 1:
+    Error: Unable to access jarfile /home/akhil/eleven/build/make/tools/framework/signapk.jar
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 03380726700855285f24919e386761b0522761b3[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Nov 7 19:57:23 2020 +0530
+
+    scripts: add in a basic script to automate my zsh config
+    
+    Also check in my powerlevel10k configuration
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 980deb0834935bfaf5a857dc578baffb5fa02154[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Nov 7 19:57:21 2020 +0530
+
+    aosip: fix shellcheck
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 0f2fad5ac4cef2e90226b044a05f67924550c8c5[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Nov 7 10:29:52 2020 +0530
+
+    aosip: build: fix path to props
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 1a57b4a40a410cee98b0d2e1803e6b9aee79deaf[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Nov 7 09:43:10 2020 +0530
+
+    aosip: sign: fix some lovely recursion
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit afbf798ad05f96c0108892763c5311b73b61e2a0[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Nov 7 01:20:44 2020 +0530
+
+    aosip: build: miscellaneous fixes
+    
+    Fix the version definition, gerrit check for some cases, rclone usage
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 9a74fd36b9489c94cf8e64ddd56f6b6810089e30[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Nov 7 00:10:14 2020 +0530
+
+    aosip: build: update version definition
+    
+    Get it ro.aosip.version prop
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 66c89ffc50feefdd5efd28747f1b83c62522b67b[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sun Nov 1 20:08:44 2020 +0530
+
+    aosip: build: get zipname after build
+    
+    The version from the time of lunching != version from when we actually start the build
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit fb895049f740ce1c21c3bfb763938ac6f21e7b01[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sun Nov 1 18:57:33 2020 +0530
+
+    aosip: build: fix zipname for !user builds
+    
+    Required after https://github.com/AOSiP/platform_vendor_aosip/commit/5a61c0f81a5386ed4ebcd70bae234de15eb53003
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit d9183099a9f5919d90c15f7f6c0256cf3d346f8d[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sun Nov 1 11:14:46 2020 +0530
+
+    aosip: build: be a bit quieter in some cases, a bit more verbose in some other cases
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 44a83ab619232cc34e4902d794e347e15a6b8e15[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Fri Oct 30 22:31:35 2020 +0530
+
+    extract_and_push: add in some more possibilities for realme codename from euclid images
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 266c19d4ae13feda8f5cbe7c705dcc07bf641e68[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Oct 26 21:43:17 2020 +0530
+
+    aosip: build: let the sync be less verbose
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit be0c06994f6a9a6c7ab2905f7cfab9e60383376a[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Mon Oct 26 21:39:12 2020 +0530
+
+    aosip: build: `sendTG()` -> `notify()`
+    
+    `sendTG()` here calls `sendAOSiP()` which is defined in `functions`
+    That `sendAOSiP()` calls `sendTG()` which was previously only defined in `functions`
+    but now is defined here as well, leading to some wonderful recursion and a segmentation fault
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 6c0c43e7c24d3aa5a7fd6484cca829ebed5ad438[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Oct 13 22:09:19 2020 +0530
+
+    aosip: move all rclone usage to run on Illusion directly
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 58d9f33f5d9cdafd05455c89b07388044d4d7d3f[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Oct 13 18:31:29 2020 +0530
+
+    aosip: don't spam testers chat for release builds
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 0f9f586f57db047d505751320e9284816045844b[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Oct 13 14:48:22 2020 +0530
+
+    scripts: aosip: sign with python2
+    
+      * Signing seems broken with python3, for now
+        Will fix it properly later
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit bfb3bbc18e14b190b3fd34c81d466fb89346fa1b[m
+Author: Vinit Chauhan <chauhanvinit23@gmail.com>
+Date:   Mon Oct 12 18:25:41 2020 +0530
+
+    Update android_build_env.sh (#139)
+    
+    * Update android_build_env.sh
+    
+    curl was missing for new systems.
+    
+    * Update android_build_env.sh
+    
+    Added curl to Ubuntu 20 Packages...
+
+[33mcommit 4d3e0730b49af40a105c707db35cba8951290700[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sun Oct 11 18:19:08 2020 +0530
+
+    extract_and_push: print the gdrive file id
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit a0ffe11e1da2ec14a3baaf66667405bcef56184f[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Oct 10 19:10:32 2020 +0530
+
+    scripts: aosip: create-project: update
+    
+    Add some checks before project creation, always force push
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 6ddc2a8e28c1f216fa17db5c85bd3f36aa6b9edf[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Oct 3 21:12:24 2020 +0530
+
+    aosip: add support for 11
+    
+    Also run shfmt treewide
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit c988ff25471c434d8f7690012b5602c22326c4d5[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Oct 3 12:03:01 2020 +0530
+
+    setup: android_build_env: update udev rules setup
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 61d4b205cc428e0f6f0b38a498a4bf94de3d63fc[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Oct 3 11:48:50 2020 +0530
+
+    setup: drop git config related steps
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit f1db4da567ae125fe5eb397f0e5b7dc5f7a3cf6e[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Oct 3 11:47:45 2020 +0530
+
+    setup: android_build_env: fix packages not getting installed on focal
+    
+    E: Unable to locate package libncurses5 python-is-python3
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 0c94d1a08b61e29c2a0510c94ffaf963bb50af7d[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Thu Oct 1 13:45:28 2020 +0530
+
+    setup: android_build_env: update some version-specific packages
+    
+    Remove libncurses5 symlink where its not required - install it with apt for Debian 10 and Ubuntu 20
+    
+    Drop support for some versions of Ubuntu since they are EOL
+    
+    LSB_RELEASE is anyway "Ubuntu 20.04 LTS" now so this wasn't getting applied, and is not needed
+    
+    Just install python-is-python3 for focal, the python package defaults to python-is-python2
+    
+    Ubuntu 18.04 seems to have curl
+    
+    Resolves https://github.com/akhilnarang/scripts/issues/136
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 3e9b54032ee6e8b6baa366716e73adc086fb4b4e[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Sep 12 18:37:16 2020 +0530
+
+    aosip: be a bit more silent when creating a gerrit project
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 72920d6359cce8c9aa072c800838f664648f2bf4[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Fri Sep 11 12:18:11 2020 +0530
+
+    setup: update print statements after arch setup
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit f4617f340d1f9eefbfc15c7aaa12c41e406452a8[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Thu Sep 10 23:25:22 2020 +0530
+
+    scripts: github: add a script to change default branch of all repos in an organization
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 017337993a0349bec01d1403039877362cb93dd0[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Fri Sep 4 21:05:36 2020 +0530
+
+    extract_and_push: don't run if git.rip is down
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit af27ae17d26b11873a2d1d2af753fca658804a95[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sun Aug 30 09:15:40 2020 +0530
+
+    aosip: sign: BASE_URL already has `https`
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 25ba378fe50efea2b4a8a43f9c56234b35309d5a[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Sat Aug 29 19:41:35 2020 +0530
+
+    aosip: sign: move base url to an environment variable
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 92faa4c0d3ae816f9be54e811e3792831a7dc89c[m
+Author: Akhil Narang <me@akhilnarang.dev>
+Date:   Tue Aug 25 10:22:41 2020 +0530
+
+    extract_and_push: check for bootimage and copy to current directory if its somewhere else
+    
+    Move kallsyms and ikconfig inside if block
+    
+    Print a message if it can't find bootimage/dtbo
+    
+    Signed-off-by: Akhil Narang <me@akhilnarang.dev>
+
+[33mcommit 28b42f481573a773f97137ad2ac2a68937ec11d8[m
+Merge: 54933d3 2d7ce09
+Author: Akhil Narang <akhilnarang.1999@gmail.com>
+Date:   Sat Aug 22 22:20:38 2020 +0530
+
+    Merge pull request #132 from Vachounet/master
+    
+    extract_and_push: speed up do
